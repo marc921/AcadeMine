@@ -1,0 +1,133 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+body {
+  font: 14px 'Lato', Verdana, Futura, sans-serif;
+  background-color: #f0f3f4;
+  padding-bottom: 60px;   /* Height of the footer */
+}
+
+/* CONTAINER AT index.js LEVEL */
+.container {
+   min-height:100%;
+   position:relative;
+}
+
+.page {
+  font: 18px 'Lato', Verdana, Futura, sans-serif;
+  padding:10px;
+  padding-bottom:60px;   /* Height of the footer */
+}
+
+/* NAVIGATION BAR */
+nav {
+  font-size: 1.2em;
+  background-color: #2b2f3b;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+nav a {
+  font-family: code-pro;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+
+.academine {
+  font-family: acme;
+  font-size: 3em;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #fd0;
+}
+/* END NAVIGATION BAR */
+
+/* FOOTER */
+footer{
+  background-color: #2b2f3b;
+  font-size: 18px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover{
+  color: yellow;
+}
+/* END FOOTER */
+
+/* LISTS */
+li{
+  margin: 10px;
+}
+li a{
+  text-decoration: none;
+}
+li a:hover{
+  font-weight: bold;
+}
+/* END LISTS */
+
+
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@font-face {
+    font-family: bubblegum;
+    src: url('fonts/BubblegumSans.otf');
+}
+
+@font-face {
+    font-family: chunkfive;
+    src: url('fonts/Chunkfive.otf');
+}
+
+@font-face {
+    font-family: expletus;
+    src: url('fonts/Expletus.ttf');
+}
+
+@font-face {
+    font-family: lapsus;
+    src: url('fonts/Lapsus.otf');
+}
+
+@font-face {
+    font-family: acme;
+    src: url('fonts/Acme-Regular.ttf');
+}
+
+@font-face {
+    font-family: code-pro;
+    src: url('fonts/Code_Pro_Demo.otf');
+}
+

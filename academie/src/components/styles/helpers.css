@@ -1,0 +1,42 @@
+/* PAGE-LEVEL LAYOUT */
+.page {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.home {
+	width: 100%;
+	display: inline-flex;
+}
+
+.inline {
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* END PAGE-LEVEL LAYOUT */
+
+/* SECTIONS */
+.content{
+	padding: 20px;
+	
+}
+/* END SECTIONS */
+
+/* TEXT */
+h1, h2 {
+	font-weight: normal;
+	margin-bottom: 0;
+}
+/* END TEXT */
+
+
+
+
