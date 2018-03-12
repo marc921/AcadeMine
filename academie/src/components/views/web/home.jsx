@@ -14,24 +14,23 @@ export default class WebHome extends React.Component {
             (bien que d'autres utilisent Python, Go ou d'autres langages pour la partie back-end en particulier).<br/>
             <br/>
             
-            <h1 style={{display: 'inline', marginRight: '30px'}}>Front-end</h1>(Partie du code exécutée sur la machine de l'utilisateur)
+            <h1 className='commented'>Front-end</h1>(Partie du code exécutée sur la machine de l'utilisateur)
             <ul>
               <li><b>HTML</b> (HyperText Markup Language): support de l'information fournie par le site, il décrit le texte affiché par le site et donne le squelette du site.</li>
               <li><b>CSS</b> (Cascade StyleSheet): décrit l'esthétique du site (couleurs, dimensions, disposition des éléments HTML).</li>
               <li><b>Javascript</b>: rend le site dynamique, introduit variables et fonctions, communique avec le back-end.</li>
             </ul>
 
-            <h1 style={{display: 'inline', marginRight: '30px'}}>Back-end</h1>(Partie du code exécutée sur un serveur distant)
+            <h1 className='commented'>Back-end</h1>(Partie du code exécutée sur un serveur distant)
             <ul>
               <li><b>PHP</b> (PHP HyperText Preprocessor): fait le lien entre le front-end et la base de données, traite les données reçues des deux parties et décide ce qui doit être envoyé au front-end.</li>
               <li><b>SQL</b> (Structured Query Language): gère la base de données (création, lecture, modification).</li>
             </ul>
 
-            <br/><br/><br/>
+            <br/>
 
-            <h2>Sites à connaitre</h2>
+            <h2 className='commented'>Sites à connaitre</h2>(en plus de ceux de l'accueil)
             <ul>
-              <li><a href='https://openclassrooms.com'>OpenClassrooms</a></li>
               <li><a href='https://www.w3schools.com/'>W3Schools</a></li>
             </ul>
 

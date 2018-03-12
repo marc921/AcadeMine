@@ -15,7 +15,7 @@ export default class JS extends React.Component {
             Le langage Javascript (qui n'a aucun lien avec Java) peut s'utiliser seul ou avec des frameworks.<br/>
             <br/>
             
-            <h1 style={{display: 'inline', marginRight: '30px'}}>Frameworks</h1>
+            <h1>Frameworks</h1>
             <p>Les frameworks sont des surcouches facilitant l'écriture de gros projets en Javascript. Les plus connus sont:</p>
             <ul>
               <li><b>React</b>: facilite la structuration du site et la réutilisabilité du code par un système de composants rappelant la Programmation Orientée Objet.</li>
@@ -26,13 +26,13 @@ export default class JS extends React.Component {
             <p>Le format <b>JSON</b> (JavaScript Object Notation) est un format de représentation d'un objet sous la forme d'un texte. Il est facile à lire et écrire. L'échange de données entre les différentes parties d'un site se passe souvent sous le format JSON.</p>
             <p>Cet échange de données se fait souvent par un appel <b>AJAX</b> (Asynchronous Javascript And XML), qui permet de demander ou d'envoyer des données au serveur de manière asynchrone.</p>
             
-
-            <br/><br/><br/>
+            <br/>
 
             <h2>Tutoriels Javascript</h2>
             <ul>
               <li><a href='https://openclassrooms.com/courses/apprenez-a-coder-avec-javascript'>OpenClassrooms - Javascript</a></li>
               <li><a href='https://www.w3schools.com/js/default.asp'>W3Schools - Javascript</a></li>
+            <li><a href="https://www.tutorialspoint.com/javascript/index.htm">Tutorials Point: Javascript</a></li>
             </ul>
 
           </div>

@@ -3,48 +3,21 @@ import React from "react";
 import '../styles/helpers.css';
 
 export default class Contact extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      message: ''
-    }
-  }
-
-  handleChange(type, event) {
-    this.setState({
-      [type]: event.target.value
-    });
-  }
-
-  contact() {
-    const xhr = new XMLHttpRequest();
-    xhr.open('POST', "http://localhost/backend/databaseManager.php", true);
-    
-    xhr.addEventListener('readystatechange', function() {
-      if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-        alert('Message envoyé !');
-        window.location.href = '/';
-      }
-    });
-    
-    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    xhr.send("message="+this.state.message+"&intent=contactdev"); // La requête est prête, on envoie tout !
-  }
-
   render() {
-    const handleChange = this.handleChange.bind(this);
-    const contact = this.contact.bind(this);
     return (
-      <div className="contact">
-        <h1>Contacter Marc Brun, développeur du site :</h1>
+      <div>
+        <div className='page'>
+          <a href="https://academine.slack.com/messages/C9NG8PCSF/"><h1>Slack</h1></a>
+          <p>
+            Que ce soit pour des remarques ou pour une contribution, nous serons très heureux de vous accueillir sur le slack d'AcadéMine.
+          </p>
 
-        <label>Message</label>
-        <textarea cols='35' rows='5' value={this.state.message} onChange={e => handleChange('message', e)} />
-        <button
-          onClick={contact}
-        >
-          Contact me!
-        </button>
+          <a href="https://trello.com/b/RZYEOxhW/acad%C3%A9mine"><h1>Trello</h1></a>
+          <p>
+            Découvrez ce que l'équipe d'AcadéMine vous réserve pour l'avenir et proposez nous des idées !
+          </p>
+          
+        </div>
       </div>
     );
   }
