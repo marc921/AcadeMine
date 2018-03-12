@@ -6,7 +6,7 @@ Recueil de tutoriels sur la programmation et l'informatique en général - site 
 	<li>Cloner le repo sur sa machine: <code>git clone git@github.com:marc921/AcadeMine.git</code></li>
 	<li>Créer une nouvelle branche à partir de la branche master: <code>git checkout -b prenom.nom/ma-contribution</code></li>
 	<li>Lancer le serveur React: <code>npm start</code>. Si vous n'avez pas installé React sur votre machine, regarder academie/README.md . En cas de problème lors de l'installation, demander de l'aide <a href="https://academine.slack.com/messages/D9NK5NS02">sur le Slack</a> ou <a href="mailto:marc.brun@mines-paristech.fr">par mail</a>.</li>
-	<li>Faire les changements voulus dans le code (./academie/src/) en testant avec votre navigateur (par défaut sur localhost:3000) et en répétant les deux étapes suivantes à chaque changement majeur.
+	<li>Faire les changements voulus dans le code (./academie/src/) en testant avec votre navigateur (par défaut sur localhost:3000) et en répétant les trois étapes suivantes à chaque changement majeur.
 	<ol>
 		<li>Ajouter les changements au prochain commit: <code>git add .</code> en étant placé à la racine du repo.</li>
 		<li>Créer le commit localement: <code>git commit -m "Description des changements réalisés"</code></li>

@@ -16,7 +16,11 @@ export default class Contact extends React.Component {
           <p>
             Découvrez ce que l'équipe d'AcadéMine vous réserve pour l'avenir et proposez nous des idées !
           </p>
-          
+          <a href="https://github.com/marc921/AcadeMine"><h1>GitHub</h1></a>
+          <p>
+            Examinez le code source du site et/ou proposez votre contribution.<br/>
+            Toute copie, partielle ou entière, est fortement encouragée dans quelque but que ce soit.
+          </p>
         </div>
       </div>
     );
