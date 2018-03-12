@@ -35,6 +35,11 @@ h1, h2 {
 	font-weight: normal;
 	margin-bottom: 0;
 }
+
+.commented{
+	display: inline-flex;
+	margin-right: 30px;
+}
 /* END TEXT */
 
 

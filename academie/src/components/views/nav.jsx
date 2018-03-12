@@ -13,7 +13,6 @@ export default class Nav extends React.Component {
 		    <Link href='/linux' text='Linux' />
 		    <Link href='/git' text='Git' />
 		    <Link href='/others' text='Autres' />
-		    <Link href='/forum' text='Forum' />
 		  </nav>
 		);
 	};
