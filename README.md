@@ -1,7 +1,7 @@
-# AcadeMine
+# AcadéMine
 Recueil de tutoriels sur la programmation et l'informatique en général - site web écrit en React
 
-<br/><br/>
+<br/>
 En cas de problème ou de doute, demander de l'aide <a href="https://academine.slack.com/messages/D9NK5NS02">sur le Slack</a> ou <a href="mailto:marc.brun@mines-paristech.fr">par mail</a>
 
 <h1>Première contribution</h1>
