@@ -25,6 +25,11 @@ export default class WebAnnexes extends React.Component {
             <li><a href="https://en.wikipedia.org/wiki/Internet_protocol_suite">Wikipédia : Protocole TCP/IP</a></li>
             <li><a href="https://en.wikipedia.org/wiki/Mesh_networking">Wikipédia : Mesh Networking</a></li>
           </ul>
+          <h1>Liens utiles</h1>
+          <ul>
+            <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+            <li><a href="https://www.fontsquirrel.com/">FontSquirrel</a></li>
+          </ul>
         </div>
       </div>
     );
