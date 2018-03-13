@@ -12,6 +12,10 @@ import ReactPage from './components/views/web/js/react';
 import PHP from './components/views/web/php';
 import SQL from './components/views/web/sql';
 import WebAnnexes from './components/views/web/annexes';
+import Java from './components/views/java';
+import Unity from './components/views/unity';
+import HackingHome from './components/views/hacking/home';
+import Others from './components/views/others';
 import Contact from './components/views/contact';
 import Footer from './components/views/footer';
 import './index.css';
@@ -32,8 +36,11 @@ ReactDOM.render(
 						<Route exact path='/web/php' component={PHP} />
 						<Route exact path='/web/sql' component={SQL} />
 						<Route exact path='/web/annexes' component={WebAnnexes} />
+					<Route exact path='/java' component={Java} />
+					<Route exact path='/unity' component={Unity} />
+					<Route exact path='/hacking' component={HackingHome} />
+					<Route exact path='/others' component={Others} />
 					<Route exact path='/contact' component={Contact} />
-
 			</Switch>
 		</BrowserRouter>
 		<Footer />
