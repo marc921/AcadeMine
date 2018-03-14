@@ -17,7 +17,7 @@ export default class Home extends React.Component {
 
           <br/>
             
-          <h2>Sites à connaitre</h2>
+          <h2>Sites à connaître</h2>
           <ul>
             <li><a href='https://openclassrooms.com/courses'>Cours - OpenClassrooms</a><br/>
                 Pensez à mettre le site en français (scroll tout en bas de la page) pour avoir accès aux cours écrits en français (plus nombreux que ceux en anglais).</li>

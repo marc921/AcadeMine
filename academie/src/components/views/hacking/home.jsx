@@ -22,7 +22,7 @@ export default class HackingHome extends React.Component {
               <br/>
               Nous présentons ici des sites de challenge, des outils et des médias touchant au domaine de la cybersécurité.
             </p>
-            <h2 className='commented'>Sites à connaitre</h2>
+            <h2 className='commented'>Sites à connaître</h2>
             <ul>
               <li><a href='https://www.hackingtutorials.org/'>Hacking Tutorials</a></li>
               <li><a href='http://overthewire.org/wargames/'>Challenges: Over The Wire</a></li>
@@ -34,15 +34,16 @@ export default class HackingHome extends React.Component {
               <li><a href='https://www.owasp.org/index.php/Main_Page'>OWASP: le Wikipédia de la cybersécurité.</a></li>
               <li><a href='http://insecure.org/fyodor/'>Insecure.org</a><br/>
                   Outils, mailing lists et news, par Fyodor, le créateur de Nmap.</li>
-              <li><a href='https://www.metasploit.com/'>Metasploit</a></li>
               <li><a href='https://www.exploit-db.com/'>Exploit Database</a></li>
+              <li><a href='http://resources.infosecinstitute.com/'>Infosec Institute: Resources</a></li>
+              <li><a href='https://www.metasploit.com/'>Metasploit</a></li>
             </ul>
 
             <br/><br/>
 
             <p style={{marginLeft: '30%'}}>
               Cette section m'intéressant tout particulièrement, j'espère l'enrichir au fil du temps avec de nouvelles connaissances, liens, tutoriels, explications personnelles. Le fait est que beaucoup de tutoriels de cybersécurité sont incomplets ou inexistants, et il est dommage de devoir chercher un cours dans des solutions de challenges. Ce sera sans doute la partie du site avec le plus de contenu interne.
-              <div style={{textAlign: 'right'}}>15brun</div>
+              <div style={{textAlign: 'right', fontStyle: 'italic'}}>15brun</div>
             </p>
             
           </div>

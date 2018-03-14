@@ -19,5 +19,5 @@ export default class Nav extends React.Component {
 }
 
 export const Link = ({ className, href, text }) => {
-	return (<a className={className} href={href} style={window.location.pathname.includes(href) ? {color: '#fd0'} : {}}>{text}</a>);
+	return (<a className={className} href={href} style={window.location.pathname.startsWith(href) ? {color: '#fd0'} : {}}>{text}</a>);
 } 

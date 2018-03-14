@@ -29,7 +29,7 @@ export default class WebHome extends React.Component {
 
             <br/>
 
-            <h2 className='commented'>Sites à connaitre</h2>(en plus de ceux de l'accueil)
+            <h2 className='commented'>Sites à connaître</h2>(en plus de ceux de l'accueil)
             <ul>
               <li><a href='https://www.w3schools.com/'>W3Schools</a></li>
             </ul>

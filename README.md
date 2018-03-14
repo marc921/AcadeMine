@@ -21,7 +21,7 @@ puis<br/>
 <h1>Procédure de contribution</h1>
 <ol>
 	<li>Créer une nouvelle branche à partir de la branche master: <code>git checkout -b prenom.nom/ma-contribution</code></li>
-	<li>Lancer le serveur React: <code>npm start</code>. Si vous n'avez pas installé React sur votre machine, regarder academie/README.md .</li>
+	<li>Lancer le serveur React: <code>cd academie; npm start</code>. Si vous n'avez pas installé React sur votre machine, regarder academie/README.md .</li>
 	<li>Faire les changements voulus dans le code (./academie/src/) en testant avec votre navigateur (par défaut sur localhost:3000) et en répétant les trois étapes suivantes à chaque changement majeur.
 	<ol>
 		<li>Ajouter les changements au prochain commit: <code>git add .</code> en étant placé à la racine du repo.</li>

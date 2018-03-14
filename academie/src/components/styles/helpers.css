@@ -40,6 +40,17 @@ h1, h2 {
 	display: inline-flex;
 	margin-right: 30px;
 }
+
+.margin-left{
+	margin-left: 30px;
+}
+
+input{
+	width: 30%;
+}
+button{
+	width: auto;
+}
 /* END TEXT */
 
 
