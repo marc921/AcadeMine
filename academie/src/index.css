@@ -104,18 +104,24 @@ li a:hover{
 .two-columns-page{
   display: flex;
   flex-direction: horizontal;
+  padding-bottom:60px;   /* Height of the footer */
 }
 
-.half-page-left, .half-page-right{
+.half-page{
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
-.half-page-left{
+.big-half{
   width: 70%;
 }
-.half-page-right{
+.half{
+  width: 50%;
+}
+.small-half{
   width: 30%;
+}
+.border-left{
   border-left: solid 1px black;
 }
 

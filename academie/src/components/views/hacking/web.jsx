@@ -34,8 +34,8 @@ export default class HackingWeb extends React.Component {
                     Testez sur <a href="https://www.tutorialspoint.com/online_html_editor.php">Tutorials Point Online HTML Editor</a> en remplaçant tout le code HTML par ce code vulnérable:
                     
                     <Highlight lang={"html"}
-                      value={"<!DOCTYPE html>\n"+"<html>\n"+"<title>Simple XSS Attack Example</title>\n"+"<body>\n"+"<label>Entrez votre nom: </label>\n"+"<input type='text' id='name'/>\n"+"<button onClick='submit()'>Afficher</button>\n"+"<div id='message' ></div>\n"+"</body>\n"+"</html>\n"+"<script>\n"+"function submit(){\n"+"document.getElementById(\"message\").innerHTML = 'Bonjour '+document.getElementById(\"name\").value;\n"+"}\n"+"</script>"} />
-
+                      value={"<!DOCTYPE html>\n"+"<html>\n"+"<title>Simple XSS Attack Example</title>\n"+"<body>\n"+"<label>Entrez votre nom: </label>\n"+"<input type='text' id='name'/>\n"+"<button onClick='submit()'>Afficher</button>\n"+"<div id='message' ></div>\n"+"</body>\n"+"</html>\n"+"<script>\n"+"function submit(){\n"+"document.getElementById(\"message\").innerHTML = 'Bonjour '+document.getElementById(\"name\").value;\n"+"}\n"+"</script>"}
+                    />
                     Cliquez sur 'Preview' puis insérez le texte suivant dans l'input:
 
                     <Highlight lang={"html"} value={'<img src="faux-lien" onerror="alert(document.cookie)" />'} />
