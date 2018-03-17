@@ -4,7 +4,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className='two-columns-page'>
-        <div className='half-page-left'>
+        <div className='half-page big-half'>
           <h1>Bienvenue à l'AcadéMine !</h1>
           <p>
             Ce site a vocation à faciliter l'apprentissage de la programmation en proposant un recueil de tutoriels classés par catégories.<br/>
@@ -22,7 +22,7 @@ export default class Home extends React.Component {
             <li><a href='https://stackoverflow.com'>Forums - Stack Overflow</a></li>
           </ul>
         </div>
-        <div className='half-page-right'>
+        <div className='half-page small-half border-left'>
           <iframe width="560"
                   height="315"
                   src="https://www.youtube.com/embed/F9GujgK0y2M" 
