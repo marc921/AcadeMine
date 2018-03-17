@@ -1,7 +1,6 @@
 {
   "name": "academie",
   "version": "0.1.0",
-  "proxy": "http://localhost:80",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",

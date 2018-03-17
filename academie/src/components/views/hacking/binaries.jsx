@@ -17,12 +17,15 @@ export default class HackingBinaries extends React.Component {
                 <li><a href="https://openclassrooms.com/courses/en-profondeur-avec-l-assembleur">OpenClassrooms: en profondeur avec l'assembleur</a></li>
                 <li><a href="https://www.tutorialspoint.com/assembly_programming/index.htm">Tutorials Point: Assembly</a></li>
                 <li><a href="https://hackr.io/tutorials/learn-assembly-language">Hackr.io: Learn Assembly Language</a></li>
+                <li><a href="http://www.c-jump.com/CIS77/ASM/Instructions/index.html">C-Jump: MASM and Registers</a></li>
               </ul>
             </li>
             <li>
               <h2>Buffer Overflow:</h2>
               Jouer sur un input pour modifier la prochaine instruction exécutée par la machine.
               <ul>
+                <li><a href="https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture">x86 Architecture: Assembly and registers</a><br/>
+                    S'y réferer pour mieux comprendre ce qui se passe lors de l'attaque.</li>
                 <li><a href="https://dhavalkapil.com/blogs/Buffer-Overflow-Exploit/">Dhaval Kapil: Buffer Overflow</a><br/>
                     Ajouter l'option -no-pie lors de la compilation du code C.</li>
                 <li><a href="https://www.exploit-db.com/papers/13171/">Exploit DB: Buffer Overflow Tutorial</a></li>
