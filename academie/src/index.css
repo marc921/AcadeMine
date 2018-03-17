@@ -163,6 +163,17 @@ button{
   padding: 10px;
 }
 
+code{
+  background-color: #272822;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fd0;
+}
+
+.zbrunSpeaking{
+  text-align: right;
+  font-style: italic;
+}
 
 .commented{
   display: inline-flex;

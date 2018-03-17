@@ -44,7 +44,7 @@ export default class JS extends React.Component {
               value={
                 "<button onclick=\"welcome()\" >Cliquez !</button>\n"+"\n"+"<script type=\"text/javascript\">\n"+"  function welcome(){\n"+"    alert(\"Bienvenue sur mon site !\");\n"+" }\n"+"</script>\n"+"\n"+"<script src=\"./js/monScript.js\" />"
               }
-                />
+            />
           </div>
 
         </div>
