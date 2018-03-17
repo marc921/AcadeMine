@@ -2,7 +2,8 @@ import React from "react";
 
 import { WebNav } from '../home';
 import { Link } from '../../nav';
-import '../../../styles/helpers.css';
+
+var Highlight = require('react-syntax-highlight');
 
 export default class JS extends React.Component {
   render() {
@@ -10,8 +11,8 @@ export default class JS extends React.Component {
       <div>
         <WebNav />
         <JSNav />
-        <div className='page'>
-          <div className='content'>
+        <div className='two-columns-page'>
+          <div className='half-page big-half'>
             Le langage Javascript (qui n'a aucun lien avec Java) peut s'utiliser seul ou avec des frameworks.<br/>
             <br/>
             
@@ -32,10 +33,19 @@ export default class JS extends React.Component {
             <ul>
               <li><a href='https://openclassrooms.com/courses/apprenez-a-coder-avec-javascript'>OpenClassrooms - Javascript</a></li>
               <li><a href='https://www.w3schools.com/js/default.asp'>W3Schools - Javascript</a></li>
-            <li><a href="https://www.tutorialspoint.com/javascript/index.htm">Tutorials Point: Javascript</a></li>
+              <li><a href="https://www.tutorialspoint.com/javascript/index.htm">Tutorials Point: Javascript</a></li>
             </ul>
-
           </div>
+
+          <div className='half-page small-half border-left'>
+            <h2>Exemple</h2>
+            <Highlight lang={"html"}
+              value={
+                "<button onclick=\"welcome()\" >Cliquez !</button>\n"+"\n"+"<script type=\"text/javascript\">\n"+"  function welcome(){\n"+"    alert(\"Bienvenue sur mon site !\");\n"+" }\n"+"</script>\n"+"\n"+"<script src=\"./js/monScript.js\" />"
+              }
+                />
+          </div>
+
         </div>
       </div>
     );

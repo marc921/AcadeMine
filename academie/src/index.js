@@ -15,6 +15,10 @@ import WebAnnexes from './components/views/web/annexes';
 import Java from './components/views/java';
 import Unity from './components/views/unity';
 import HackingHome from './components/views/hacking/home';
+import HackingWeb from './components/views/hacking/web';
+import HackingBinaries from './components/views/hacking/binaries';
+import Git from './components/views/git';
+import Linux from './components/views/linux';
 import Others from './components/views/others';
 import Contact from './components/views/contact';
 import Footer from './components/views/footer';
@@ -39,6 +43,10 @@ ReactDOM.render(
 					<Route exact path='/java' component={Java} />
 					<Route exact path='/unity' component={Unity} />
 					<Route exact path='/hacking' component={HackingHome} />
+						<Route exact path='/hacking/web' component={HackingWeb} />
+						<Route exact path='/hacking/binaries' component={HackingBinaries} />
+					<Route exact path='/git' component={Git} />
+					<Route exact path='/linux' component={Linux} />
 					<Route exact path='/others' component={Others} />
 					<Route exact path='/contact' component={Contact} />
 			</Switch>
