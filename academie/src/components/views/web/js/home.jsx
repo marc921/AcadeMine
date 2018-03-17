@@ -39,6 +39,7 @@ export default class JS extends React.Component {
 
           <div className='half-page small-half border-left'>
             <h2>Exemple</h2>
+            <label>Dans un fichier .html:</label>
             <Highlight lang={"html"}
               value={
                 "<button onclick=\"welcome()\" >Cliquez !</button>\n"+"\n"+"<script type=\"text/javascript\">\n"+"  function welcome(){\n"+"    alert(\"Bienvenue sur mon site !\");\n"+" }\n"+"</script>\n"+"\n"+"<script src=\"./js/monScript.js\" />"
