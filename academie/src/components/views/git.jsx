@@ -1,7 +1,5 @@
 import React from "react";
 
-import '../styles/helpers.css';
-
 export default class Git extends React.Component {
   render() {
     return (
@@ -10,7 +8,7 @@ export default class Git extends React.Component {
           <h1>Liens internes</h1>
           <ul>
             <li><a href="https://github.com/marc921/AcadeMine">Dépôt Git du site AcadéMine</a></li>
-            <li><a href="https://github.com/marc921/AcadeMine/blob/master/README.md">GitHub AcadéMine: comment contribuer de manière rapide et stable.</a></li>
+            <li><a href="https://github.com/marc921/AcadeMine/blob/master/README.md">GitHub AcadéMine: comment contribuer de manière simple, rapide et stable.</a></li>
           </ul>
           <h1>Tutoriels extérieurs</h1>
           <ul>

@@ -2,7 +2,6 @@ import React from "react";
 
 import { WebNav } from '../home';
 import { Link } from '../../nav';
-import '../../../styles/helpers.css';
 
 export default class JS extends React.Component {
   render() {

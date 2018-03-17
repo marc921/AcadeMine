@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Link } from '../nav';
-import '../../styles/helpers.css';
 
 export default class HackingHome extends React.Component {
   render() {
@@ -41,10 +40,10 @@ export default class HackingHome extends React.Component {
 
             <br/><br/>
 
-            <p style={{marginLeft: '30%'}}>
+            <div style={{marginLeft: '30%'}}>
               Cette section m'intéressant tout particulièrement, j'espère l'enrichir au fil du temps avec de nouvelles connaissances, liens, tutoriels, explications personnelles. Le fait est que beaucoup de tutoriels de cybersécurité sont incomplets ou inexistants, et il est dommage de devoir chercher un cours dans des solutions de challenges. Ce sera sans doute la partie du site avec le plus de contenu interne.
               <div style={{textAlign: 'right', fontStyle: 'italic'}}>15brun</div>
-            </p>
+            </div>
             
           </div>
         </div>

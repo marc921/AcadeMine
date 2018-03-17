@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Link } from '../nav';
-import '../../styles/helpers.css';
 
 export default class WebHome extends React.Component {
   render() {

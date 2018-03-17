@@ -1,7 +1,6 @@
 import React from "react";
 
 import { HackingNav } from './home.jsx';
-import '../../styles/helpers.css';
 
 export default class HackingBinaries extends React.Component {
   render() {

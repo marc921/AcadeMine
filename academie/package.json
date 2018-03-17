@@ -1,11 +1,15 @@
 {
   "name": "academie",
   "version": "0.1.0",
+  "proxy": "http://localhost:80",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "0.9.5"
+    "react-highlight": "^0.11.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "0.9.5",
+    "react-syntax-highlight": "^15.3.1"
   },
   "devDependencies": {},
   "scripts": {

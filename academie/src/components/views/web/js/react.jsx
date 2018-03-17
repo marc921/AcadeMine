@@ -2,7 +2,6 @@ import React from "react";
 
 import { WebNav } from '../home';
 import { JSNav } from './home';
-import '../../../styles/helpers.css';
 
 export default class ReactPage extends React.Component {
   render() {

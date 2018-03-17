@@ -12,6 +12,7 @@ export default class Nav extends React.Component {
 		    <Link href='/hacking' text='Cybersécurité' />
 		    <Link href='/linux' text='Linux' />
 		    <Link href='/git' text='Git' />
+		    <Link href='/concepts' text='Concepts' />
 		    <Link href='/others' text='Autres' />
 		  </nav>
 		);

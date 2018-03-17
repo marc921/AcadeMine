@@ -1,7 +1,5 @@
 import React from "react";
 
-import '../styles/helpers.css';
-
 export default class Unity extends React.Component {
   render() {
     return (

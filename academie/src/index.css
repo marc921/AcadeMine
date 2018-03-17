@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  font: 14px 'Lato', Verdana, Futura, sans-serif;
+  font: 18px 'Lato', Verdana, Futura, sans-serif;
   background-color: #f0f3f4;
 }
 
@@ -21,6 +21,9 @@ body {
   font: 18px 'Lato', Verdana, Futura, sans-serif;
   padding:10px;
   padding-bottom:60px;   /* Height of the footer */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* NAVIGATION BAR */
@@ -50,7 +53,7 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover, button:hover{
   color: #fd0;
 }
 /* END NAVIGATION BAR */
@@ -94,6 +97,81 @@ li a:hover{
   font-weight: bold;
 }
 /* END LISTS */
+
+
+/* PAGE-LEVEL LAYOUT */
+
+.two-columns-page{
+  display: flex;
+  flex-direction: horizontal;
+}
+
+.half-page-left, .half-page-right{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.half-page-left{
+  width: 70%;
+}
+.half-page-right{
+  width: 30%;
+  border-left: solid 1px black;
+}
+
+.home {
+  width: 100%;
+  display: inline-flex;
+}
+
+.inline {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* END PAGE-LEVEL LAYOUT */
+
+/* SECTIONS */
+.content{
+  padding: 20px;
+  
+}
+/* END SECTIONS */
+
+/* TEXT */
+h1, h2 {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+button{
+  width: auto;
+  background-color: #272822;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.commented{
+  display: inline-flex;
+  margin-right: 30px;
+}
+
+.margin-left{
+  margin-left: 30px;
+}
+/* END TEXT */
+
+
+
+
 
 
 

@@ -1,7 +1,6 @@
 import React from "react";
 
 import { WebNav } from './home';
-import '../../styles/helpers.css';
 
 export default class PHP extends React.Component {
   render() {
