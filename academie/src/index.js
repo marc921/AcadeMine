@@ -17,6 +17,7 @@ import Unity from './components/views/unity';
 import HackingHome from './components/views/hacking/home';
 import HackingWeb from './components/views/hacking/web';
 import HackingBinaries from './components/views/hacking/binaries';
+import HackingSystem from './components/views/hacking/system';
 import Git from './components/views/git';
 import Linux from './components/views/linux';
 import Concepts from './components/views/concepts';
@@ -46,6 +47,7 @@ ReactDOM.render(
 					<Route exact path='/hacking' component={HackingHome} />
 						<Route exact path='/hacking/web' component={HackingWeb} />
 						<Route exact path='/hacking/binaries' component={HackingBinaries} />
+						<Route exact path='/hacking/system' component={HackingSystem} />
 					<Route exact path='/git' component={Git} />
 					<Route exact path='/linux' component={Linux} />
 					<Route exact path='/concepts' component={Concepts} />
