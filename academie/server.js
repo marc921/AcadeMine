@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 
 app.get('/receiver', (req, res) => {
 	const ip = req.header('x-forwarded-for') || req.connection.remoteAddress;
-  	fs.appendFile('visitors-data', `${Date()}#${ip}#${util.inspect(req.headers)}\n`, function (err) {
+  	fs.appendFile('visitors-data', `#DATE#${Date()}#IP#${ip}#REFERER#${req.header('referer')}#USER-AGENT#${req.header('user-agent')}\n`, function (err) {
 	  if (err) throw err;
 	  console.log('Saved!');
 	});
