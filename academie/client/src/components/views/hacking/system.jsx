@@ -38,7 +38,7 @@ export default class HackingSystem extends React.Component {
             {this.state.showSUID &&
               <div>
                 Nous considérons que vous êtes sur un système UNIX (Linux ou MacOS).<br/>
-                Nous présentons ici une escalade de privilège simple basée sur un exécutable SUID très vulnérable.
+                Nous présentons ici une élévation des privilèges (privilege escalation) simple basée sur un exécutable SUID très vulnérable.
                 <ol>
                   <li>
                     En tant qu'administrateur (root) (<code>sudo commande</code> permet d'exécuter commande en tant que root):
@@ -91,7 +91,7 @@ export default class HackingSystem extends React.Component {
                         Revenir dans votre dossier personnel: <code>cd</code>
                       </li>
                       <li>
-                        Ecrire le code de l'escalade de privilège: evil.c<br/>
+                        Ecrire le code de l'élévation des privilèges: evil.c<br/>
                         <Highlight lang={"c"}
                           value={
                             "#include <stdlib.h>\n"+"#include <stdio.h>\n"+"#include <unistd.h>\n"+"\n"+"int main(int argc, char *argv[]){\n"+" printf(\"CODE DE L'ATTAQUANT\\n\");\n"+" seteuid(0);\n"+"  setuid(0);\n"+" printf(\"UID: %d\\n\", getuid());\n"+"  printf(\"EUID: %d\\n\", geteuid());\n"+"  system(\"/bin/sh\");\n"+"}"
@@ -130,7 +130,7 @@ export default class HackingSystem extends React.Component {
                     <ul>
                       <li>Les fichiers SUID sont de moins en moins utilisés par les administrateurs du fait de leur vulnérabilité. La plupart des distributions de Linux ont pris des mesures pour restreindre l'usage de ces fichiers (le SUID ne marche pas sur les scripts Bash, dans les dossiers utilisateurs...). C'est une attaque vieille et donc rarement utilisable aujourd'hui.</li>
                       <li>Un attaquant normal n'a souvent pas accès au code source de l'exécutable SUID. Dans ce cas, il peut être intéressant de le désassembler (voir <a href="/hacking/binaries">Cybersécurité - Exécutables</a>) ou de regarder les chaînes de caractères lisibles par un humain (human readable strings) qu'il contient avec <code>strings executable</code> et repérer une commande UNIX dedans.</li>
-                      <li>Nous avons présenté une escalade de privilège avec l'ouverture d'un shell, mais vous pouvez aussi utiliser un lien symbolique vers une autre commande avec <code>ln -s destination source</code>. En nommant votre lien du nom de la commande exécutée, il fera le même détournement que l'exécutable issu de evil.c présenté ici (mais risque de souffrir des arguments donnés).</li>
+                      <li>Nous avons présenté une élévation des privilèges avec l'ouverture d'un shell, mais vous pouvez aussi utiliser un lien symbolique vers une autre commande avec <code>ln -s destination source</code>. En nommant votre lien du nom de la commande exécutée, il fera le même détournement que l'exécutable issu de evil.c présenté ici (mais risque de souffrir des arguments donnés).</li>
                     </ul>
                   </li>
                 </ol>
