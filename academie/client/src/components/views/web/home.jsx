@@ -17,7 +17,8 @@ export default class WebHome extends React.Component {
             <ul>
               <li><b>HTML</b> (HyperText Markup Language): support de l'information fournie par le site, il décrit le texte affiché par le site et donne le squelette du site.</li>
               <li><b>CSS</b> (Cascade StyleSheet): décrit l'esthétique du site (couleurs, dimensions, disposition des éléments HTML).</li>
-              <li><b>Javascript</b>: rend le site dynamique, introduit variables et fonctions, communique avec le back-end.</li>
+              <li><b>Javascript</b>: rend le site dynamique, introduit variables et fonctions, communique avec le back-end.<br/>
+                Avec les différents frameworks Javascript, il est aujourd'hui possible de faire un site entier (front-end et back-end) uniquement en Javascript, très simplement !</li>
             </ul>
 
             <h1 className='commented'>Back-end</h1>(Partie du code exécutée sur un serveur distant)
@@ -32,8 +33,10 @@ export default class WebHome extends React.Component {
             <ul>
               <li><a href='https://www.w3schools.com/'>W3Schools</a></li>
             </ul>
-
           </div>
+        <p>
+          (full-stack = front-end + back-end)
+        </p>
         </div>
       </div>
     );

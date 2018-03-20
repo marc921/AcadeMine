@@ -8,7 +8,7 @@ lines = [l.replace("\\","\\\\") for l in lines]	#escapes backslashes
 lines = [l.replace("\"","\\\"") for l in lines]	#escapes double quotes
 lines = [l.replace("\n","") for l in lines]	#removes newlines
 
-string = "\\n\"+\"".join(lines)	#adds escaped newlines
+string = "\\n".join(lines)	#adds escaped newlines
 string = "\""+string+"\""
 
 print (string)

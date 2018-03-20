@@ -103,6 +103,8 @@ li a:hover{
 .two-columns-page{
   display: flex;
   flex-direction: horizontal;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom:60px;   /* Height of the footer */
 }
 

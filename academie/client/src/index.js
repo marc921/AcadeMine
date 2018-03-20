@@ -9,10 +9,11 @@ import HTML from './components/views/web/html';
 import CSS from './components/views/web/css';
 import JS from './components/views/web/js/home';
 import ReactPage from './components/views/web/js/react';
+import NodeJS from './components/views/web/js/node';
 import PHP from './components/views/web/php';
 import SQL from './components/views/web/sql';
 import WebAnnexes from './components/views/web/annexes';
-import Java from './components/views/java';
+import JavaHome from './components/views/java/home';
 import Unity from './components/views/unity';
 import HackingHome from './components/views/hacking/home';
 import HackingWeb from './components/views/hacking/web';
@@ -39,10 +40,11 @@ ReactDOM.render(
 						<Route exact path='/web/css' component={CSS} />
 						<Route exact path='/web/js' component={JS} />
 							<Route exact path='/web/js/react' component={ReactPage} />
+							<Route exact path='/web/js/node' component={NodeJS} />
 						<Route exact path='/web/php' component={PHP} />
 						<Route exact path='/web/sql' component={SQL} />
 						<Route exact path='/web/annexes' component={WebAnnexes} />
-					<Route exact path='/java' component={Java} />
+					<Route exact path='/java' component={JavaHome} />
 					<Route exact path='/unity' component={Unity} />
 					<Route exact path='/hacking' component={HackingHome} />
 						<Route exact path='/hacking/web' component={HackingWeb} />

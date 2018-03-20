@@ -13,7 +13,7 @@ export default class ReactPage extends React.Component {
         <JSNav />
         <div className='two-columns-page'>
           <div className='half-page small-half'>
-            <p>Ce site est écrit en React.</p>
+            <p>Le front-end de ce site est écrit en React.</p>
             <h1>Tutoriels extérieurs</h1>
             <ul>
               <li><a href="https://openclassrooms.com/courses/realisez-une-application-web-avec-react-js">OpenClassrooms: React JS</a></li>

@@ -15,28 +15,5 @@ app.get('/receiver', (req, res) => {
 	res.end();
 });
 
-app.get('/api/hello', (req, res) => {
-  res.send({ express: 'Hello From Express' });
-});
-
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
-
-// Demo: Circular reference
-var o = {};
-o.o = o;
-
-// Note: cache should not be re-used by repeated calls to JSON.stringify.
-var cache = [];
-JSON.stringify(o, function(key, value) {
-    if (typeof value === 'object' && value !== null) {
-        if (cache.indexOf(value) !== -1) {
-            // Circular reference found, discard key
-            return;
-        }
-        // Store value in our collection
-        cache.push(value);
-    }
-    return value;
-});
-cache = null; // Enable garbage collection
