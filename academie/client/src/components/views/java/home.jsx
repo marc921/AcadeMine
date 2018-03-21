@@ -21,11 +21,11 @@ export default class JavaHome extends React.Component {
               Squelette de projet graphique en Java:
             </h2>
             <ul>
-              <li><a href="/java-assets/Engine.java">Engine.java</a>: le moteur de jeu, coeur du projet.</li>
-              <li><a href="/java-assets/GUI.java">GUI.java</a>: gestion de la fenêtre de jeu et des inputs (clavier, souris).</li>
-              <li><a href="/java-assets/Panel.java">Panel.java</a>: gestion de l'affichage</li>
-              <li><a href="/java-assets/Fighter.java">Fighter.java</a></li>
-              <li><a href="/java-assets/fighter.png">fighter.png</a></li>
+              <li><a href="/assets/java/Engine.java">Engine.java</a>: le moteur de jeu, coeur du projet.</li>
+              <li><a href="/assets/java/GUI.java">GUI.java</a>: gestion de la fenêtre de jeu et des inputs (clavier, souris).</li>
+              <li><a href="/assets/java/Panel.java">Panel.java</a>: gestion de l'affichage</li>
+              <li><a href="/assets/java/Fighter.java">Fighter.java</a></li>
+              <li><a href="/assets/java/fighter.png">fighter.png</a></li>
             </ul>
             <p>
               Créez un nouveau projet avec Eclipse, ajoutez les fichiers .java dans src/ et fighter.png à la racine du projet, et c'est bon !
